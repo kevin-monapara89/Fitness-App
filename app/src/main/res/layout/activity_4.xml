@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1A1A"
+    android:orientation="vertical"
+    tools:context=".Activity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btnback1"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:src="@drawable/img_2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:gravity="center_horizontal"
+            android:text="Create an account"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/edtbtn"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/_18sdp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/edtbtn"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/_18sdp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/edtbtn"
+            android:hint="Phone"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/_18sdp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/edtbtn"
+            android:hint="Date of Birth"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/_18sdp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/edtbtn"
+            android:hint="Password"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/btnlog4"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:gravity="center_horizontal"
+            android:text="By clicking Sign up agree to the following ."
+            android:textColor="#8F8585"
+            android:textSize="@dimen/_14sdp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:text="Term and Condition"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:gravity="center_horizontal"
+            android:text="  Without registration"
+            android:textColor="#8F8585"
+            android:textSize="@dimen/_14sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

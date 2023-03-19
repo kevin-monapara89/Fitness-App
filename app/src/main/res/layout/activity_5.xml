@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#1C1A1A"
     android:orientation="vertical"
-    tools:context=".Activity3">
+    tools:context=".Activity5">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_30sdp"
             android:gravity="center_horizontal"
-            android:text="Reset your password"
+            android:text="Verify your phone\n number"
             android:textColor="@color/white"
             android:textSize="@dimen/_25sdp"
             android:textStyle="bold" />
@@ -36,26 +36,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_7sdp"
             android:gravity="center_horizontal"
-            android:text="Please enter your email address.You will
-receive a link to create a new password
-via email."
+            android:text="We have sent you SMS with a code to number "
             android:textColor="#8F8585"
             android:textSize="@dimen/_14sdp" />
 
-        <EditText
+        <TextView
+            android:id="@+id/btnlog4"
             android:layout_width="match_parent"
             android:layout_height="42dp"
             android:layout_marginTop="@dimen/_30sdp"
-            android:background="@drawable/edtbtn"
-            android:hint="Your Email"
-            android:inputType="textEmailAddress"
-            android:paddingLeft="@dimen/_18sdp" />
-
-        <TextView
-            android:id="@+id/btnlog3"
-            android:layout_width="match_parent"
-            android:layout_height="42dp"
-            android:layout_marginTop="@dimen/_35sdp"
             android:background="@drawable/btn"
             android:gravity="center"
             android:text="Login"
@@ -64,5 +53,3 @@ via email."
             android:textStyle="bold" />
 
     </LinearLayout>
-
-</LinearLayout>
