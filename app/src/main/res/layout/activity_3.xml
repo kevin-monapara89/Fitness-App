@@ -44,7 +44,7 @@ via email."
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="@dimen/_37sdp"
             android:layout_marginTop="@dimen/_30sdp"
             android:background="@drawable/edtbtn"
             android:hint="Your Email"
@@ -60,7 +60,7 @@ via email."
             android:gravity="center"
             android:text="Login"
             android:textColor="@color/white"
-            android:textSize="@dimen/_12sdp"
+            android:textSize="@dimen/_13sdp"
             android:textStyle="bold" />
 
     </LinearLayout>
