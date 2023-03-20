@@ -54,13 +54,13 @@ via email."
         <TextView
             android:id="@+id/btnlog3"
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="@dimen/_40sdp"
             android:layout_marginTop="@dimen/_35sdp"
             android:background="@drawable/btn"
             android:gravity="center"
             android:text="Login"
             android:textColor="@color/white"
-            android:textSize="@dimen/_13sdp"
+            android:textSize="@dimen/_15sdp"
             android:textStyle="bold" />
 
     </LinearLayout>

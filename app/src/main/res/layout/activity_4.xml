@@ -79,13 +79,13 @@
         <TextView
             android:id="@+id/btnlog4"
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="@dimen/_40sdp"
             android:layout_marginTop="@dimen/_30sdp"
             android:background="@drawable/btn"
             android:gravity="center"
             android:text="Login"
             android:textColor="@color/white"
-            android:textSize="@dimen/_12sdp"
+            android:textSize="@dimen/_15sdp"
             android:textStyle="bold" />
 
         <TextView
