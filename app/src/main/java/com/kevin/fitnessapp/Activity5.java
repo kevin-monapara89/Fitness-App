@@ -21,7 +21,7 @@ public class Activity5 extends AppCompatActivity {
 
         btnback3 = findViewById(R.id.btnback3);
         btnlog5 = findViewById(R.id.btnlog5);
-
+        
         btnback3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
