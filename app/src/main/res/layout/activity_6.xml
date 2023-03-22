@@ -47,16 +47,16 @@
 
     </LinearLayout>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/btn2"
             android:backgroundTint="#121111"
             android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -194,6 +194,7 @@
                     </RelativeLayout>
 
                     <TextView
+                        android:id="@+id/btnlog6"
                         android:layout_width="@dimen/_95sdp"
                         android:layout_height="@dimen/_35sdp"
                         android:layout_marginLeft="@dimen/_145sdp"
@@ -234,7 +235,6 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:id="@+id/connectdevice"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_75sdp"
                     android:layout_marginTop="@dimen/_20sdp"
@@ -297,6 +297,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_60sdp"
                     android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_45sdp"
                     android:background="@drawable/edtbtn"
                     android:backgroundTint="#ffffff"
                     android:paddingLeft="@dimen/_15sdp"
@@ -336,8 +337,8 @@
 
             </LinearLayout>
 
-        </LinearLayout>
+            </ScrollView>
 
-    </ScrollView>
+        </LinearLayout>
 
 </LinearLayout>

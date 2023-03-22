@@ -14,7 +14,7 @@ public class Activity3 extends AppCompatActivity {
     ImageView btnback1;
     TextView btnlog3;
 
-    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
+    @SuppressLint({"MissingInflatedId"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
