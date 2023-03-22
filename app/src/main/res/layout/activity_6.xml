@@ -67,8 +67,8 @@
             android:layout_height="42dp"
             android:layout_marginTop="@dimen/_15sdp"
             android:background="@drawable/edtbtn"
-            android:paddingLeft="@dimen/_18sdp"
-            android:hint="Password" />
+            android:hint="Password"
+            android:paddingLeft="@dimen/_18sdp" />
 
 
     </LinearLayout>
