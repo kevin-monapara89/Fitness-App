@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Activity2 extends AppCompatActivity {
 
-    TextView btnlog2, forgetpass;
+    TextView  forgetpass, btnlog2;
 
     @SuppressLint("MissingInflatedId")
     @Override

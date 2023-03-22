@@ -9,31 +9,30 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class Activity3 extends AppCompatActivity {
+public class Activity4 extends AppCompatActivity {
 
-    ImageView btnback1;
-    TextView btnlog3;
-
-    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
+    TextView btnlog4;
+    ImageView btnback2;
+    @SuppressLint({"WrongViewCast", "MissingInflatedId"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_3);
+        setContentView(R.layout.activity_4);
 
-        btnback1 = findViewById(R.id.btnback1);
-        btnlog3 = findViewById(R.id.btnlog3);
+        btnback2 = findViewById(R.id.btnback2);
+        btnlog4 = findViewById(R.id.btnlog4);
 
-        btnback1.setOnClickListener(new View.OnClickListener() {
+        btnback2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(Activity3.this, Activity2.class);
+                Intent in = new Intent(Activity4.this, Activity3.class);
                 startActivity(in);
             }
         });
-        btnlog3.setOnClickListener(new View.OnClickListener() {
+        btnlog4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(Activity3.this, Activity4.class);
+                Intent in = new Intent(Activity4.this, Activity5.class);
                 startActivity(in);
             }
         });
