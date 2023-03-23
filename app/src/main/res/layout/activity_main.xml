@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="@drawable/page1"
     android:gravity="center"
     android:orientation="vertical"
@@ -27,18 +27,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_15sdp"
+        android:layout_margin="@dimen/_13sdp"
         android:text="Boost your knowladge on the bolg. Find your
 fit with wear and gear"
         android:textAlignment="center"
         android:textColor="#7d7070"
         android:textStyle="bold"
-        android:textSize="@dimen/_16sdp" />
+        android:textSize="@dimen/_13sdp" />
 
     <TextView
         android:id="@+id/btnlog1"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_37sdp"
+        android:layout_height="@dimen/_40sdp"
         android:layout_marginLeft="@dimen/_15sdp"
         android:layout_marginTop="@dimen/_140sdp"
         android:layout_marginRight="@dimen/_15sdp"
@@ -52,7 +52,7 @@ fit with wear and gear"
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:gravity="center"
         android:orientation="horizontal">
 

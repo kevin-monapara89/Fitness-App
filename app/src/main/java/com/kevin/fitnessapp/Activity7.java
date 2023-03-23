@@ -11,18 +11,18 @@ import android.widget.TextView;
 
 public class Activity7 extends AppCompatActivity {
 
-    TextView btnlog4;
-    ImageView btnback6;
+    TextView btnconnect;
+    ImageView btnback7;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_7);
 
-        btnback6 = findViewById(R.id.btnback6);
-        btnlog4 = findViewById(R.id.btnlog5);
+        btnback7 = findViewById(R.id.btnback7);
+        btnconnect = findViewById(R.id.btnconnect);
 
-        btnlog4.setOnClickListener(new View.OnClickListener() {
+        btnconnect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(Activity7.this, Activity8.class);
@@ -30,7 +30,7 @@ public class Activity7 extends AppCompatActivity {
             }
         });
 
-        btnback6.setOnClickListener(new View.OnClickListener() {
+        btnback7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(Activity7.this, Activity6.class);

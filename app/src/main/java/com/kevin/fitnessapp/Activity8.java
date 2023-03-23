@@ -11,8 +11,7 @@ import android.widget.TextView;
 
 public class Activity8 extends AppCompatActivity {
 
-    TextView history;
-    LinearLayout linbadge;
+    TextView history, stats;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,12 +19,19 @@ public class Activity8 extends AppCompatActivity {
         setContentView(R.layout.activity_8);
 
         history = findViewById(R.id.history);
-        linbadge = findViewById(R.id.linbadge);
-
+        stats = findViewById(R.id.stats);
         history.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent();
+                Intent intent = new Intent(Activity8.this, Activity9.class);
+                startActivity(intent);
+            }
+        });
+        stats.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Activity8.this, Activity10.class);
+                startActivity(intent);
             }
         });
     }

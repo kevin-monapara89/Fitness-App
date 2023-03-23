@@ -9,7 +9,7 @@
     tools:context=".Activity7">
 
     <ImageView
-        android:id="@+id/btnback6"
+        android:id="@+id/btnback7"
         android:layout_width="@dimen/_30sdp"
         android:layout_height="@dimen/_30sdp"
         android:layout_marginLeft="@dimen/_20sdp"
@@ -71,7 +71,7 @@
         android:textSize="@dimen/_14sdp" />
 
     <TextView
-        android:id="@+id/btnlog7"
+        android:id="@+id/btnconnect"
         android:layout_width="@dimen/_190sdp"
         android:layout_height="@dimen/_40sdp"
         android:layout_marginTop="@dimen/_40sdp"
