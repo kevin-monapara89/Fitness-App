@@ -32,6 +32,10 @@
 
     </LinearLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -45,7 +49,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_80sdp"
-                android:background="@drawable/img_5"
+                android:background="@drawable/img_22"
                 android:paddingLeft="@dimen/_15sdp"
                 android:paddingTop="@dimen/_15sdp">
 
@@ -70,7 +74,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_80sdp"
-                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_13sdp"
                 android:background="@drawable/img_17"
                 android:paddingLeft="@dimen/_15sdp"
                 android:paddingTop="@dimen/_15sdp">
@@ -78,7 +82,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Quads &amp; Deltoids"
+                    android:text="push up Routing"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_17sdp"
                     android:textStyle="bold" />
@@ -87,7 +91,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_25sdp"
-                    android:text="7 Exerciese completed"
+                    android:text="12 Exerciese completed"
                     android:textColor="#8F8585"
                     android:textSize="@dimen/_12sdp" />
 
@@ -96,7 +100,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_80sdp"
-                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_13sdp"
                 android:background="@drawable/img_18"
                 android:paddingLeft="@dimen/_15sdp"
                 android:paddingTop="@dimen/_15sdp">
@@ -104,7 +108,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Quads &amp; Deltoids"
+                    android:text="Slide Planks"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_17sdp"
                     android:textStyle="bold" />
@@ -113,7 +117,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_25sdp"
-                    android:text="7 Exerciese completed"
+                    android:text="12 Exerciese completed"
                     android:textColor="#8F8585"
                     android:textSize="@dimen/_12sdp" />
 
@@ -122,7 +126,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_80sdp"
-                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_13sdp"
                 android:background="@drawable/img_19"
                 android:paddingLeft="@dimen/_15sdp"
                 android:paddingTop="@dimen/_15sdp">
@@ -130,7 +134,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Quads &amp; Deltoids"
+                    android:text="situps"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_17sdp"
                     android:textStyle="bold" />
@@ -139,16 +143,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_25sdp"
-                    android:text="7 Exerciese completed"
+                    android:text="13 Exerciese completed"
                     android:textColor="#8F8585"
                     android:textSize="@dimen/_12sdp" />
 
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/quads"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_80sdp"
-                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_13sdp"
                 android:background="@drawable/img_20"
                 android:paddingLeft="@dimen/_15sdp"
                 android:paddingTop="@dimen/_15sdp">
@@ -174,8 +179,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_80sdp"
-                android:layout_marginTop="@dimen/_15sdp"
-                android:layout_marginBottom="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:layout_marginBottom="@dimen/_105sdp"
                 android:background="@drawable/img_21"
                 android:paddingLeft="@dimen/_15sdp"
                 android:paddingTop="@dimen/_15sdp">
@@ -202,4 +207,49 @@
 
     </ScrollView>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:background="@drawable/edtbtn"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_460sdp"
+            android:backgroundTint="#ffffff"
+            android:paddingLeft="@dimen/_15sdp">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/img_7"
+                android:backgroundTint="#908686"/>
+
+            <ImageView
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:layout_gravity="center"
+                android:backgroundTint="#E52962"
+                android:layout_marginLeft="@dimen/_80sdp"
+                android:background="@drawable/img_8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_8sdp"
+                android:text="Workout"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_45sdp"
+                android:background="@drawable/img_9" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
 </LinearLayout>

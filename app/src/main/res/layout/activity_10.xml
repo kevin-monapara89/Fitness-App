@@ -314,9 +314,10 @@
             android:textStyle="bold" />
 
         <ImageView
+            android:id="@+id/workout"
             android:layout_width="@dimen/_22sdp"
             android:layout_height="@dimen/_22sdp"
-            android:layout_marginLeft="@dimen/_120sdp"
+            android:layout_marginLeft="@dimen/_110sdp"
             android:layout_marginTop="@dimen/_10sdp"
             android:src="@drawable/img_8" />
 
@@ -328,5 +329,5 @@
             android:src="@drawable/img_9" />
 
     </RelativeLayout>
-    
+
 </LinearLayout>

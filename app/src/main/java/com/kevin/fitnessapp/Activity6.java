@@ -21,7 +21,6 @@ public class Activity6 extends AppCompatActivity {
 
         btnlog6 = findViewById(R.id.btnlog6);
         connectdevice = findViewById(R.id.connectdevice);
-
         btnlog6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
