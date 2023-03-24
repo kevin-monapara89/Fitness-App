@@ -24,9 +24,10 @@
             android:layout_width="@dimen/_22sdp"
             android:layout_height="@dimen/_22sdp"
             android:layout_gravity="bottom"
-            android:layout_marginLeft="@dimen/_210sdp"
+            android:layout_marginLeft="@dimen/_220sdp"
             android:layout_marginBottom="@dimen/_5sdp"
-            android:src="@drawable/img_9" />
+            android:src="@drawable/img_9"
+            app:tint="@color/white" />
 
     </LinearLayout>
 
@@ -40,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="@dimen/_24sdp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:text="Johan Smith"
         android:textColor="@color/white"
         android:textSize="@dimen/_15sdp"
@@ -60,8 +61,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/_20sdp"
-        android:layout_marginRight="@dimen/_20sdp"
         android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -168,10 +169,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/badges"
                 android:layout_width="@dimen/_95sdp"
                 android:layout_height="@dimen/_35sdp"
                 android:layout_margin="@dimen/_5sdp"
@@ -185,6 +187,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/history"
                 android:layout_width="@dimen/_95sdp"
                 android:layout_height="@dimen/_35sdp"
                 android:layout_margin="@dimen/_5sdp"
@@ -197,6 +200,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/stats"
                 android:layout_width="@dimen/_95sdp"
                 android:layout_height="@dimen/_35sdp"
                 android:layout_margin="@dimen/_5sdp"
@@ -210,259 +214,252 @@
 
         </LinearLayout>
 
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_20sdp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_marginTop="@dimen/_15sdp">
 
             <LinearLayout
+                android:id="@+id/linbadge"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_90sdp"
-                android:background="@drawable/edtbtn"
-                android:gravity="center">
-
-                <ImageView
-                    android:layout_width="@dimen/_50sdp"
-                    android:layout_height="@dimen/_50sdp"
-                    android:layout_margin="@dimen/_20sdp"
-                    android:src="@drawable/img_13" />
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:layout_height="@dimen/_80sdp"
+                    android:background="@drawable/edtbtn"
+                    android:gravity="center">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Best Workout"
-                        android:textColor="@color/white"
-                        android:textSize="@dimen/_15sdp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_4sdp"
-                        android:text="27 Exerciese completed"
-                        android:textColor="#8F8585"
-                        android:textSize="@dimen/_15sdp" />
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_20sdp"
+                        android:src="@drawable/img_13" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_8sdp"
-                            android:text="10/08/2020"
-                            android:textColor="#8F8585"
-                            android:textSize="@dimen/_15sdp" />
+                            android:text="Best Workout"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_8sdp"
-                            android:text="\t 17:24"
+                            android:text="27 Exerciese completed"
                             android:textColor="#8F8585"
+                            android:textStyle="bold"
                             android:textSize="@dimen/_15sdp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:text="10/08/2020"
+                                android:textColor="#8F8585"
+                                android:textStyle="bold"
+                                android:textSize="@dimen/_15sdp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:text="\t 17:24"
+                                android:textStyle="bold"
+                                android:textColor="#8F8585"
+                                android:textSize="@dimen/_15sdp" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
                 </LinearLayout>
 
-            </LinearLayout>
-            +
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_90sdp"
-                android:layout_marginTop="@dimen/_20sdp"
-                android:background="@drawable/edtbtn"
-                android:gravity="center">
-
-                <ImageView
-                    android:layout_width="@dimen/_50sdp"
-                    android:layout_height="@dimen/_50sdp"
-                    android:layout_margin="@dimen/_20sdp"
-                    android:src="@drawable/img_13" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/edtbtn"
+                    android:gravity="center">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Best Workout"
-                        android:textColor="@color/white"
-                        android:textSize="@dimen/_15sdp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_4sdp"
-                        android:text="27 Exerciese completed"
-                        android:textColor="#8F8585"
-                        android:textSize="@dimen/_15sdp" />
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_20sdp"
+                        android:src="@drawable/img_14" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_8sdp"
-                            android:text="10/08/2020"
-                            android:textColor="#8F8585"
-                            android:textSize="@dimen/_15sdp" />
+                            android:text="Workout of the week"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_8sdp"
-                            android:text="\t 17:24"
+                            android:text="727 Exerciese completed"
                             android:textColor="#8F8585"
+                            android:textStyle="bold"
                             android:textSize="@dimen/_15sdp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:text="07/08/2020"
+                                android:textStyle="bold"
+                                android:textColor="#8F8585"
+                                android:textSize="@dimen/_15sdp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:text="\t 12:11"
+                                android:textStyle="bold"
+                                android:textColor="#8F8585"
+                                android:textSize="@dimen/_15sdp" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
                 </LinearLayout>
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_90sdp"
-                android:layout_marginTop="@dimen/_20sdp"
-                android:background="@drawable/edtbtn"
-                android:gravity="center">
-
-                <ImageView
-                    android:layout_width="@dimen/_50sdp"
-                    android:layout_height="@dimen/_50sdp"
-                    android:layout_margin="@dimen/_20sdp"
-                    android:src="@drawable/img_13" />
-
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/edtbtn"
+                    android:gravity="center">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Best Workout"
-                        android:textColor="@color/white"
-                        android:textSize="@dimen/_15sdp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_4sdp"
-                        android:text="27 Exerciese completed"
-                        android:textColor="#8F8585"
-                        android:textSize="@dimen/_15sdp" />
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_20sdp"
+                        android:src="@drawable/img_15" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_8sdp"
-                            android:text="10/08/2020"
-                            android:textColor="#8F8585"
-                            android:textSize="@dimen/_15sdp" />
+                            android:text="99 days"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_8sdp"
-                            android:text="\t 17:24"
+                            android:text="727 Exerciese completed"
                             android:textColor="#8F8585"
+                            android:textStyle="bold"
                             android:textSize="@dimen/_15sdp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:text="07/08/2020"
+                                android:textStyle="bold"
+                                android:textColor="#8F8585"
+                                android:textSize="@dimen/_15sdp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:text="\t 12:11"
+                                android:textColor="#8F8585"
+                                android:textStyle="bold"
+                                android:textSize="@dimen/_15sdp" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
                 </LinearLayout>
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_90sdp"
-                android:layout_marginTop="@dimen/_20sdp"
-                android:background="@drawable/edtbtn"
-                android:gravity="center">
-
-                <ImageView
-                    android:layout_width="@dimen/_50sdp"
-                    android:layout_height="@dimen/_50sdp"
-                    android:layout_margin="@dimen/_20sdp"
-                    android:src="@drawable/img_13" />
-
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:background="@drawable/edtbtn"
+                    android:backgroundTint="#ffffff"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingTop="@dimen/_10sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:src="@drawable/img_7" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Best Workout"
-                        android:textColor="@color/white"
+                        android:layout_marginLeft="@dimen/_28sdp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:text="Home"
+                        android:textColor="#000000"
                         android:textSize="@dimen/_15sdp"
                         android:textStyle="bold" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_4sdp"
-                        android:text="27 Exerciese completed"
-                        android:textColor="#8F8585"
-                        android:textSize="@dimen/_15sdp" />
+                    <ImageView
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_marginLeft="@dimen/_120sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:src="@drawable/img_8" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_marginLeft="@dimen/_200sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:src="@drawable/img_9" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_8sdp"
-                            android:text="10/08/2020"
-                            android:textColor="#8F8585"
-                            android:textSize="@dimen/_15sdp" />
+                </RelativeLayout>
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_8sdp"
-                            android:text="\t 17:24"
-                            android:textColor="#8F8585"
-                            android:textSize="@dimen/_15sdp" />
-
-                    </LinearLayout>
-                </LinearLayout>
             </LinearLayout>
-        </LinearLayout>
+
         </ScrollView>
+
     </LinearLayout>
+
 </LinearLayout>
