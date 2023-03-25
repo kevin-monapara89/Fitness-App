@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1C1A1A"
     android:orientation="vertical"
+    android:background="#1C1A1A"
     tools:context=".Activity6">
 
     <LinearLayout
@@ -47,16 +47,16 @@
 
     </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/btn2"
-            android:backgroundTint="#121111"
-            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/btn2"
+        android:backgroundTint="#121111"
+        android:orientation="vertical">
 
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -169,11 +169,11 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/_85sdp"
                         android:layout_marginTop="@dimen/_20sdp"
                         android:background="@drawable/img_4"
                         android:paddingLeft="@dimen/_15sdp"
-                        android:paddingTop="@dimen/_10sdp">
+                        android:paddingTop="@dimen/_15sdp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -198,7 +198,7 @@
                         android:layout_width="@dimen/_95sdp"
                         android:layout_height="@dimen/_35sdp"
                         android:layout_marginLeft="@dimen/_145sdp"
-                        android:layout_marginTop="@dimen/_75sdp"
+                        android:layout_marginTop="@dimen/_87sdp"
                         android:background="@drawable/btn"
                         android:gravity="center"
                         android:text="START"
@@ -210,11 +210,11 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_height="@dimen/_85sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
                     android:background="@drawable/img_5"
                     android:paddingLeft="@dimen/_15sdp"
-                    android:paddingTop="@dimen/_10sdp">
+                    android:paddingTop="@dimen/_15sdp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -235,12 +235,13 @@
                 </RelativeLayout>
 
                 <RelativeLayout
+                    android:id="@+id/connectdevice"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/_75sdp"
-                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_height="@dimen/_85sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
                     android:background="@drawable/edtbtn"
                     android:paddingLeft="@dimen/_15sdp"
-                    android:paddingTop="@dimen/_10sdp">
+                    android:paddingTop="@dimen/_15sdp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -269,11 +270,11 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_height="@dimen/_85sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
                     android:background="@drawable/img_4"
                     android:paddingLeft="@dimen/_15sdp"
-                    android:paddingTop="@dimen/_10sdp">
+                    android:paddingTop="@dimen/_15sdp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -337,8 +338,8 @@
 
             </LinearLayout>
 
-            </ScrollView>
+        </ScrollView>
 
-        </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>

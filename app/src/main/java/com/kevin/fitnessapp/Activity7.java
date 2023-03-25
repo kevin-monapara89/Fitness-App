@@ -27,6 +27,7 @@ public class Activity7 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent in = new Intent(Activity7.this, Activity8.class);
                 startActivity(in);
+                finish();
             }
         });
 
