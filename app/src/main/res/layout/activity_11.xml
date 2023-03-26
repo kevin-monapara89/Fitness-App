@@ -212,7 +212,7 @@
             android:layout_height="@dimen/_60sdp"
             android:background="@drawable/edtbtn"
             android:orientation="horizontal"
-            android:layout_marginTop="@dimen/_460sdp"
+            android:layout_marginTop="@dimen/_425sdp"
             android:backgroundTint="#ffffff"
             android:paddingLeft="@dimen/_15sdp">
 
