@@ -322,6 +322,7 @@
             android:src="@drawable/img_8" />
 
         <ImageView
+            android:id="@+id/setting"
             android:layout_width="@dimen/_22sdp"
             android:layout_height="@dimen/_22sdp"
             android:layout_marginLeft="@dimen/_200sdp"

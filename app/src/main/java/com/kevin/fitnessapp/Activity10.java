@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class Activity10 extends AppCompatActivity {
 
     TextView history3, badges3;
-    ImageView workout;
+    ImageView workout, setting;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,13 +22,7 @@ public class Activity10 extends AppCompatActivity {
         history3 = findViewById(R.id.history3);
         badges3 = findViewById(R.id.badges3);
         workout = findViewById(R.id.workout);
-        workout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent in = new Intent(Activity10.this, Activity11.class);
-                startActivity(in);
-            }
-        });
+        setting = findViewById(R.id.setting);
         history3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,5 +37,20 @@ public class Activity10 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        workout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(Activity10.this, Activity11.class);
+                startActivity(in);
+            }
+        });
+        setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(Activity10.this, Activity15.class);
+                startActivity(in);
+            }
+        });
+
     }
 }

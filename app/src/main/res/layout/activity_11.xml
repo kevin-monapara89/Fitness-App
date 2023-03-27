@@ -211,7 +211,7 @@
             android:layout_height="@dimen/_60sdp"
             android:background="@drawable/edtbtn"
             android:orientation="horizontal"
-            android:layout_marginTop="@dimen/_425sdp"
+            android:layout_marginTop="@dimen/_495sdp"
             android:backgroundTint="#ffffff"
             android:paddingLeft="@dimen/_15sdp">
 
@@ -242,6 +242,7 @@
                 android:textStyle="bold" />
 
             <ImageView
+                android:id="@+id/setting"
                 android:layout_width="@dimen/_22sdp"
                 android:layout_height="@dimen/_22sdp"
                 android:layout_gravity="center"
