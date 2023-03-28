@@ -32,7 +32,7 @@ public class Activity2 extends AppCompatActivity {
         btnlog2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(Activity2.this, Activity3.class);
+                Intent in = new Intent(Activity2.this, Activity6.class);
                 startActivity(in);
             }
         });

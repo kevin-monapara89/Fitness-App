@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 
 public class Activity11 extends AppCompatActivity {
 
-    ImageView home, setting;
+    ImageView home, setting, btnback11;
     RelativeLayout quads;
     @SuppressLint("MissingInflatedId")
     @Override
@@ -21,6 +21,8 @@ public class Activity11 extends AppCompatActivity {
 
         home = findViewById(R.id.home);
         setting = findViewById(R.id.setting);
+        btnback11 = findViewById(R.id.btnback11);
+        quads = findViewById(R.id.quads);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,11 +30,24 @@ public class Activity11 extends AppCompatActivity {
                 startActivity(in);
             }
         });
-
         setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(Activity11.this, Activity15.class);
+                startActivity(in);
+            }
+        });
+        quads.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(Activity11.this, Activity12.class);
+                startActivity(in);
+            }
+        });
+        btnback11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(Activity11.this, Activity10.class);
                 startActivity(in);
             }
         });

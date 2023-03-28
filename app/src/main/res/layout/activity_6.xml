@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#1C1A1A"
+    android:orientation="vertical"
     tools:context=".Activity6">
 
     <LinearLayout
@@ -209,6 +209,7 @@
                 </FrameLayout>
 
                 <RelativeLayout
+                    android:id="@+id/quads"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_85sdp"
                     android:layout_marginTop="@dimen/_15sdp"
@@ -321,6 +322,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/workout"
                         android:layout_width="@dimen/_22sdp"
                         android:layout_height="@dimen/_22sdp"
                         android:layout_marginLeft="@dimen/_120sdp"
@@ -328,6 +330,7 @@
                         android:src="@drawable/img_8" />
 
                     <ImageView
+                        android:id="@+id/setting"
                         android:layout_width="@dimen/_22sdp"
                         android:layout_height="@dimen/_22sdp"
                         android:layout_marginLeft="@dimen/_200sdp"

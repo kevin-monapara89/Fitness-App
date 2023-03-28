@@ -45,7 +45,7 @@
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="42dp"
+                    android:layout_height="@dimen/_40sdp"
                     android:layout_marginTop="@dimen/_30sdp"
                     android:background="@drawable/edtbtn"
                     android:paddingLeft="@dimen/_18sdp"
@@ -53,10 +53,11 @@
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="42dp"
+                    android:layout_height="@dimen/_40sdp"
                     android:layout_marginTop="@dimen/_15sdp"
                     android:background="@drawable/edtbtn"
                     android:paddingLeft="@dimen/_18sdp"
+                    android:inputType="textPassword"
                     android:hint="Password" />
 
 

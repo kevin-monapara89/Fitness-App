@@ -30,7 +30,6 @@ public class Activity7 extends AppCompatActivity {
                 finish();
             }
         });
-
         btnback7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

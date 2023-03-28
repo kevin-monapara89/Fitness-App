@@ -14,7 +14,7 @@
         android:layout_margin="@dimen/_20sdp">
 
         <ImageView
-            android:id="@+id/btnback6"
+            android:id="@+id/btnback13"
             android:layout_width="@dimen/_25sdp"
             android:layout_height="@dimen/_25sdp"
             android:layout_gravity="center"
@@ -125,7 +125,7 @@
         <TextView
             android:layout_width="@dimen/_120sdp"
             android:layout_height="@dimen/_30sdp"
-            android:layout_margin="@dimen/_10sdp"
+            android:layout_margin="@dimen/_5sdp"
             android:layout_weight="1"
             android:background="@drawable/edtbtn"
             android:gravity="center"
@@ -138,7 +138,7 @@
             android:id="@+id/nextexcercise"
             android:layout_width="@dimen/_120sdp"
             android:layout_height="@dimen/_30sdp"
-            android:layout_margin="@dimen/_10sdp"
+            android:layout_margin="@dimen/_5sdp"
             android:layout_weight="1"
             android:background="@drawable/btn"
             android:gravity="center"
@@ -153,7 +153,7 @@
         android:layout_width="@dimen/_320sdp"
         android:layout_height="@dimen/_10sdp"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_165sdp"
         android:src="@drawable/img_31" />
 
 </LinearLayout>
