@@ -350,7 +350,6 @@
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold" />
 
-
     </RelativeLayout>
 
 </LinearLayout>
