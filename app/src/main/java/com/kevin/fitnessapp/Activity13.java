@@ -13,6 +13,7 @@ public class Activity13 extends AppCompatActivity {
 
     TextView nextexcercise;
     ImageView btnback13;
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,5 @@ public class Activity13 extends AppCompatActivity {
                 startActivity(in);
             }
         });
-
     }
 }

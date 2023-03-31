@@ -35,6 +35,5 @@ public class Activity14 extends AppCompatActivity {
                 startActivity(in);
             }
         });
-
     }
 }
